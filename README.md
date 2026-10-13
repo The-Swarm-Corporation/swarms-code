@@ -22,25 +22,6 @@ whether it came from your environment or a `.env` file). Press any key to skip t
 │      claude-opus-5-5 · Anthropic       │ ✓ ANTHROPIC_API_KEY found in your environment    │
 │              ~/code/stats              │                                                  │
 ╰───────────────────────────────────────────────────────────────────────────────────────────╯
-
-● You
-  › the median test fails, can you fix it?
-
-● Swarms Code
-  I'll read the module and run the tests.
-  ⏺ Read(stats.py)
-    ⎿  Read 15 lines
-  ⏺ Bash(python3 -m unittest -q)
-    ⎿  FAIL: test_median_even (test_stats.StatsTest.test_median_even)
-    ⎿  Failed (exit code 1)
-  ⏺ Update(stats.py)
-         15 -     return (ordered[middle] + ordered[middle + 1]) / 2
-         15 +     return (ordered[middle - 1] + ordered[middle]) / 2
-    ? Apply this edit to stats.py?
-      y  Yes
-      a  Yes, and don't ask again for file edits this session
-      n  No, and tell Swarms Code what to do instead
-  …
 ```
 
 ## Quick start
