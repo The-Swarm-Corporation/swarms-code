@@ -1,11 +1,13 @@
 # Swarms Code
 
-[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
-[![Rust 1.88+](https://img.shields.io/badge/rust-1.88%2B-orange.svg?logo=rust)](https://www.rust-lang.org)
-[![Built on swarms-rs](https://img.shields.io/badge/built%20on-swarms--rs-black.svg)](https://github.com/The-Swarm-Corporation/swarms-rs)
-[![~5.7k lines of Rust](https://img.shields.io/badge/code-~5.7k%20lines-brightgreen.svg)](src)
-[![Startup ~10 ms](https://img.shields.io/badge/startup-~10%20ms-brightgreen.svg)](#swarms-code)
-[![GitHub stars](https://img.shields.io/github/stars/The-Swarm-Corporation/swarms-code?style=social)](https://github.com/The-Swarm-Corporation/swarms-code)
+<p>
+  <a href="LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-3b82f6?style=for-the-badge&labelColor=0d1117"></a>
+  <a href="https://www.rust-lang.org"><img alt="Rust 1.88+" src="https://img.shields.io/badge/rust-1.88%2B-f74c00?style=for-the-badge&labelColor=0d1117&logo=rust&logoColor=white"></a>
+  <a href="https://github.com/The-Swarm-Corporation/swarms-rs"><img alt="Built on swarms-rs" src="https://img.shields.io/badge/built%20on-swarms--rs-e11d48?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white"></a>
+  <a href="src"><img alt="About 5.7k lines of Rust" src="https://img.shields.io/badge/code-~5.7k%20lines-22c55e?style=for-the-badge&labelColor=0d1117"></a>
+  <a href="#swarms-code"><img alt="Startup about 10 ms" src="https://img.shields.io/badge/startup-~10%20ms-22c55e?style=for-the-badge&labelColor=0d1117&logo=lightning&logoColor=white"></a>
+  <a href="https://github.com/The-Swarm-Corporation/swarms-code/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/The-Swarm-Corporation/swarms-code?style=for-the-badge&labelColor=0d1117&logo=github&logoColor=white&color=eab308"></a>
+</p>
 
 **A tiny, blazingly fast coding harness that writes powerful, minimal code.**
 
