@@ -1,0 +1,6 @@
+# The image builds from Cargo.toml, Cargo.lock and src/ alone. Keep everything else out,
+# above all target/ and secrets such as .env.
+*
+!Cargo.toml
+!Cargo.lock
+!src/
