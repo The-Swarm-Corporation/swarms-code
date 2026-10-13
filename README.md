@@ -1,5 +1,12 @@
 # Swarms Code
 
+[![License: Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)
+[![Rust 1.88+](https://img.shields.io/badge/rust-1.88%2B-orange.svg?logo=rust)](https://www.rust-lang.org)
+[![Built on swarms-rs](https://img.shields.io/badge/built%20on-swarms--rs-black.svg)](https://github.com/The-Swarm-Corporation/swarms-rs)
+[![~5.7k lines of Rust](https://img.shields.io/badge/code-~5.7k%20lines-brightgreen.svg)](src)
+[![Startup ~10 ms](https://img.shields.io/badge/startup-~10%20ms-brightgreen.svg)](#swarms-code)
+[![GitHub stars](https://img.shields.io/github/stars/The-Swarm-Corporation/swarms-code?style=social)](https://github.com/The-Swarm-Corporation/swarms-code)
+
 **A tiny, blazingly fast coding harness that writes powerful, minimal code.**
 
 Swarms Code is a coding agent for your terminal, built in Rust on
