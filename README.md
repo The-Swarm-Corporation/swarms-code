@@ -10,6 +10,19 @@ shows the model, the directory, a few tips, and whether the model's API key was 
 whether it came from your environment or a `.env` file). Press any key to skip the animation.
 
 ```
+╭─── Swarms Code v0.1.0 ────────────────────────────────────────────────────────────────────╮
+│                                        │                                                  │
+│        Welcome to Swarms Code!         │ Tips for getting started                         │
+│                                        │ Ask for a fix, a feature, or an explanation      │
+│                ▀▄   ▄▀                 │ Add a SWARMS.md with notes for the agent         │
+│               ▄█▀███▀█▄                │ /model switches between Anthropic and OpenRouter │
+│              █▀███████▀█               │ /help for commands · ctrl+c interrupts           │
+│              ▀ ▀▄▄ ▄▄▀ ▀               │ ──────────────────────────────────────────────── │
+│                                        │ API key                                          │
+│      claude-opus-5-5 · Anthropic       │ ✓ ANTHROPIC_API_KEY found in your environment    │
+│              ~/code/stats              │                                                  │
+╰───────────────────────────────────────────────────────────────────────────────────────────╯
+
 ● You
   › the median test fails, can you fix it?
 
