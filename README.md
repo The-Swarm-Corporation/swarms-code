@@ -1,13 +1,21 @@
 # Swarms Code
 
-A coding agent for your terminal, inspired by Claude Code and built on
-[swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs). It reads and edits your code, runs commands and tests, and talks
-with you in a simple chat: your messages appear under **You**, and the agent's replies and
-tool activity appear under **Swarms Code**. It's written entirely in Rust and starts instantly.
+**A tiny, blazingly fast coding harness that writes powerful, minimal code.**
 
-When the chat starts, a red space invader marches into a Claude Code style welcome panel that
-shows the model, the directory, a few tips, and whether the model's API key was found (and
-whether it came from your environment or a `.env` file). Press any key to skip the animation.
+Swarms Code is a coding agent for your terminal, built in Rust on
+[swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs). It reads your code, makes
+the smallest change that fully solves the problem, runs your tests, and gets out of the way.
+
+- **Small.** About 5,700 lines of Rust. You can read the whole harness in an afternoon: one
+  agent loop, eight tools, one system prompt. No plugins, no daemon, no config sprawl.
+- **Fast.** A single native binary that starts in about 10 ms. No runtime to boot, no
+  dependencies to install. Built with `cargo` and run as is.
+- **Minimal code, on purpose.** The agent is told to fix root causes, prefer the simplest
+  change that works, match the project's conventions, stay in scope, and leave out
+  abstractions, options and indirection the task doesn't need. It verifies with your
+  project's own checks and leaves no dead code or debug output behind.
+- **Any model.** Claude through Anthropic's API, or any tool-capable model on OpenRouter,
+  switchable mid-conversation with `/model`.
 
 ```
 ╭─── Swarms Code v0.1.0 ────────────────────────────────────────────────────────────────────╮
